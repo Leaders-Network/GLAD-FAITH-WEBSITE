@@ -13,18 +13,18 @@ const boardMembers: BoardMember[] = [
   {
     name: 'Dr. Sammuel Oluyemi Adejare',
     title: 'Chairman, Governing Board',
-    image: '/images/board1.jpg',
+    image: '/images/sammy.jpg',
   },
   {
     name: 'Dr. Olusegun Ayo Omosehin',
     title: 'Commissioner / CEO',
-    image: '/images/board2.jpg',
+    image: '/images/ola.jpg',
   },
-  {
-    name: 'Dr. Usman Jankara Jimada',
-    title: 'Deputy Commissioner Technical',
-    image: '/images/board3.jpg',
-  },
+  // {
+  //   name: 'Dr. Usman Jankara Jimada',
+  //   title: 'Deputy Commissioner Technical',
+  //   image: '/images/board3.jpg',
+  // },
 ];
 
 const GoverningBoard = () => {
@@ -52,11 +52,8 @@ const GoverningBoard = () => {
         {/* Board Members */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           {boardMembers.map((member, index) => (
-            <motion.div
+            <div
               key={index}
-              initial={{ opacity: 0, y: 40 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: index * 0.2 }}
               className="bg-white rounded-xl shadow-md overflow-hidden border border-gray-100 hover:shadow-lg transition-shadow"
             >
               <div className="relative w-full h-[400px]">
@@ -73,7 +70,7 @@ const GoverningBoard = () => {
                 </h3>
                 <p className="text-green-700 text-sm mt-1">{member.title}</p>
               </div>
-            </motion.div>
+            </div>
           ))}
         </div>
       </div>

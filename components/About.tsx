@@ -18,7 +18,7 @@ const AboutSection = () => {
           <div className="relative w-full h-full rounded-2xl overflow-hidden shadow-lg border border-gray-200">
             <Image
               src="/images/about.jpg"
-              alt="Insurance Consultation"
+              alt="GladFaith Consulting Office"
               fill
               className="object-cover rounded-2xl"
               priority
@@ -37,15 +37,22 @@ const AboutSection = () => {
           </p>
 
           <h2 className="text-3xl md:text-5xl font-semibold text-gray-900 dark:text-white leading-tight mb-6">
-            Building Solutions Through Insurance Excellence & Integrity
+            Bridging Technology and Insurance with Integrity
           </h2>
 
           <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-6">
-            At <span className="font-semibold text-green-700">GladFaith</span>, we believe that insurance support should be clear, confident, and client-focused. With years of experience across diverse policy solutions, our mission is to simplify complex insurance matters & provide strategic coverage tailored to your needs.
+            <span className="font-semibold text-green-700">GladFaith Consult</span> delivers
+            cutting-edge <strong>Information Technology</strong> and
+            <strong> Insurance consultancy</strong> services designed to transform the way
+            insurance businesses operate. We build smart digital solutions tailored
+            for both compulsory and general insurance applications.
           </p>
 
           <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-8">
-            Whether you’re an individual, a startup, or a growing business, we’re here to protect your interests, minimize risks, and offer peace of mind every step of the way.
+            In today’s world, insurance is more than a policy — it’s a financial
+            safety net. As your trusted, independent partner, we simplify complex
+            insurance products, bridging the gap between technology, coverage, and
+            customer understanding.
           </p>
 
           <a

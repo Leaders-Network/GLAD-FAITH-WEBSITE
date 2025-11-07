@@ -115,14 +115,19 @@ const Footer = () => {
           <h3 className="text-lg font-semibold text-white mb-4">Contacts</h3>
           <ul className="space-y-3 text-gray-400">
             <li className="flex items-center gap-2">
-              <FiPhone className="text-green-400" /> +234-802-555-7890
+              <FiPhone className="text-green-400" /> 08038151415
+            </li>
+            <li className="flex items-center gap-2">
+              <FiPhone className="text-green-400" /> 08033000908
+            </li>
+            <li className="flex items-center gap-2">
+              <FiPhone className="text-green-400" /> 07065078128
             </li>
             <li className="flex items-center gap-2">
               <FiMail className="text-green-400" /> hello@gladfaith.com
             </li>
             <li className="flex items-center gap-2">
-              <FiMapPin className="text-green-400" /> 12 Unity Avenue, Wuse 2,
-              Abuja, Nigeria
+              <FiMapPin className="text-green-400" /> Gladfaith Consult, 19, Emmanuel Street, Ogudu, Ojota, Lagos
             </li>
           </ul>
         </div>
