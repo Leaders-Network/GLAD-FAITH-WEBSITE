@@ -9,6 +9,7 @@ import ContactSection from "@/components/ContactSection";
 import Image from "next/image";
 
 export default function Home() {
+
   return (
     <div>
       <main>
