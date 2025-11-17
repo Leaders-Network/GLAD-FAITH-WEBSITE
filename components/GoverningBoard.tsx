@@ -10,17 +10,17 @@ interface BoardMember {
 }
 
 const boardMembers: BoardMember[] = [
-  {
-    name: 'Dr. Dr. Sammy Olaniyi',
-    title: 'Chairman, Governing Board',
-    image: '/images/sammy.jpg',
-  },
-  {
-    name: 'Dotun Sasore',
-    title: 'Managing Director',
+    {
+    name: 'Dr. Sammy Olaniyi ',
+    title: ' Chairman',
     image: '/images/ola.jpg',
   },
-  // You can add more board members here
+  {
+    name: 'Engr. Dotun Sasore',
+    title: 'Managing Director',
+    image: '/images/sammy.jpg',
+  },
+
 ];
 
 const GoverningBoard = () => {
@@ -28,7 +28,7 @@ const GoverningBoard = () => {
     <section className="relative py-24 bg-gradient-to-b from-white to-gray-50 dark:from-gray-950 dark:to-gray-900 overflow-hidden">
       <div className="absolute inset-0 pointer-events-none bg-[radial-gradient(ellipse_at_top_right,_rgba(16,185,129,0.05),_transparent_60%)]" />
 
-      <div className="relative max-w-7xl mx-auto px-6 md:px-10">
+      <div  className="relative max-w-7xl mx-auto px-6 md:px-10">
         {/* --- Header Section --- */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -49,7 +49,7 @@ const GoverningBoard = () => {
         </motion.div>
 
         {/* --- Board Members --- */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
+        <div data-aos="zoom-in" className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
           {boardMembers.map((member, index) => (
             <motion.div
               key={index}

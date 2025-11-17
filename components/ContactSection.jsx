@@ -2,7 +2,7 @@ import React from "react";
 
 const ContactSection = () => {
   return (
-    <div className="bg-[#f4f7f4] py-20">
+    <div id="contact" className="bg-[#f4f7f4] py-20">
       <h1 className="text-center mb-5 font-bold text-[2rem]">Contact Us  </h1>
       <div className="w-[90%] mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-stretch">
         {/* --- Map --- */}

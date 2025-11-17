@@ -6,7 +6,7 @@ import { ArrowRight } from 'lucide-react';
 
 const Services = () => {
   return (
-    <section className="relative bg-gray-50 dark:bg-gray-950 py-20">
+    <section id='service' className="relative bg-gray-50 dark:bg-gray-950 py-20">
       <div className="max-w-7xl mx-auto px-6">
         {/* --- Header --- */}
         <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center gap-8">

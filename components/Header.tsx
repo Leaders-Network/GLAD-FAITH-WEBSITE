@@ -100,12 +100,12 @@ const Header = () => {
           <div className={`hidden md:flex items-center font-semibold space-x-6 transition-colors duration-300 ${
             navBg ? 'text-green-700' : 'text-white'}`}>
             <Link href="/" className="hover:text-green-600">Home</Link>
-            <Link href="/aboutus" className="hover:text-green-600">About</Link>
-            <Link href="/services" className="hover:text-green-600">Services</Link>
-            <Link href="/blog" className="hover:text-green-600">Blog</Link>
-            <Link href="/career" className="hover:text-green-600">Career</Link>
-            <Link href="/contact" className="hover:text-green-600">Contact</Link>
-            <Link href="/get-quote" className="ml-4 rounded-full bg-green-600 text-white px-4 py-2 text-sm font-medium hover:bg-green-700">
+            <Link href="#about" className="hover:text-green-600">About</Link>
+            <Link href="#service" className="hover:text-green-600">Services</Link>
+            <Link href="/" className="hover:text-green-600">Blog</Link>
+            <Link href="/" className="hover:text-green-600">Career</Link>
+            <Link href="#contact" className="hover:text-green-600">Contact</Link>
+            <Link href="/" className="ml-4 rounded-full bg-green-600 text-white px-4 py-2 text-sm font-medium hover:bg-green-700">
               Get a Quote
             </Link>
           </div>
